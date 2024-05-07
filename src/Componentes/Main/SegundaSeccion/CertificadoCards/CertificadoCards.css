@@ -1,0 +1,33 @@
+.padreDeCertificados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-margin-top: 8ex;
+}
+
+.padreDeCertificados h2{
+    color:  #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    font-family: "Oswald", sans-serif;
+}
+
+.dividerDeCetificado{
+    height: 3px;
+    width: 90px;
+    background-color:  #E29C3B;
+    margin: 10px 75px 0 0;
+}
+
+.contenedorDeCertificados{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:750px;
+    grid-template-rows: 400px;
+    gap:400px;
+    padding-top: 200px;
+}

@@ -1,0 +1,26 @@
+.contenedorCardsPaginas{
+    height: 1100px;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 570px 570px;
+    justify-content: center;
+    align-items: center;
+    margin-top:260px;
+    gap: 80px;
+}
+
+.tituloDePaginas{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    margin: 70px 0 0 5px;
+    scroll-margin-top: 6ex;
+    font-family: "Oswald", sans-serif;
+}
+
+.dividerDeProyectos{
+    height: 3px;
+    width: 90px;
+    background-color:  #E29C3B;
+    margin: 10px 0 0 615px;
+}

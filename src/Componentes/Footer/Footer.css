@@ -1,0 +1,33 @@
+.padreDelFooter{
+    position: absolute;
+    width: 100%;
+    background-color:#30323e;
+}
+
+.seccionDeLinksFooter{
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows:100px 150px;
+    grid-template-columns: 200px 200px 50px;
+    padding-left: 10px;
+}
+
+.telefono{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+}
+
+.telefono i{
+    font-size: 20px;
+}
+
+.telefono p{
+    font-size: 20px;
+}
+

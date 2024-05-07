@@ -1,0 +1,16 @@
+.contenedorLogo{
+    width: 150px;
+    text-decoration: none;
+}
+
+.textoLogo{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #e2dede;
+    font-family: "Oswald", sans-serif;
+}
+
+span{
+    color: #E29C3B;
+}

@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+/*editando navegador*/
+.navBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.navBar .linkNavBar:nth-child(6){
+    margin-right: 30px;
+}
+
+.linkNavBar{
+    position: relative;
+    text-decoration: none;
+    color: #e2dede;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+}
+
+.linkNavBar:after{
+    content: "";
+    position: absolute;
+    background-color: #E29C3B;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -4px;
+    transition: 0.8s;
+}
+
+.linkNavBar:hover{
+    color: whitesmoke;
+    transition: 0.6s;
+}
+
+.linkNavBar:hover:after{
+    width: 100%;
+}
+
