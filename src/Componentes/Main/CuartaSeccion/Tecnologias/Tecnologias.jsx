@@ -1,5 +1,6 @@
 import "./Tecnologias.css"
 import CardsTec from "../CardsTecnologia/CardsTec";
+import firebase from "../../../../assets/Imagenes/firebase.png"
 
 function Tecnologias(){
 
@@ -19,7 +20,7 @@ function Tecnologias(){
                 <CardsTec titulo="React" icono="fa-brands fa-react" texto="biblioteca de Javascript" id="react"></CardsTec>
                 <CardsTec titulo="NPM" icono="fa-brands fa-npm" texto="gestionador de paquetes" id="npm"></CardsTec>
                 <CardsTec titulo="GitHub" icono="fa-brands fa-github" texto="pagina para alojar proyectos" id="gitHub"></CardsTec>
-                <CardsTec titulo="FireBase" img="/imagenes/firebase.png" texto="plataforma para el desarrollo de aplicaciones web" id="fireBase"></CardsTec>
+                <CardsTec titulo="FireBase" img={firebase} texto="plataforma para el desarrollo de aplicaciones web" id="fireBase"></CardsTec>
             </section>
         </div>
     );

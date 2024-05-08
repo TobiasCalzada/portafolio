@@ -1,5 +1,8 @@
 import "./PaginasWeb.css";
 import CardsPagina from "../CardsPaginas/CardsPagina";
+import proyectoDesarrolloWeb from "../../../../assets/Imagenes/DesarrolloWeb.jpg";
+import proyectoJavaScript from "../../../../assets/Imagenes/JavaScript.jpg";
+import proyectoReact from "../../../../assets/Imagenes/react.jpg"
 
 function PaginasWeb(){
 
@@ -9,7 +12,7 @@ function PaginasWeb(){
             <div className="dividerDeProyectos"></div>
             <div className="contenedorCardsPaginas">
                 <CardsPagina 
-                    imagen="/Imagenes/DesarrolloWeb.jpg" 
+                    imagen={proyectoDesarrolloWeb} 
                     titulo="Proyecto Desarrollo Web" 
                     descripcion="Proyecto final de Coderhouse (Desarrollo Web), ecommerce de articulo y productos sobre el mate, con diferentes secciones, aplicación de SCSS, Bootstrap y resposive." 
                     alt="imagen de la pagina web de desarrollo web" 
@@ -17,7 +20,7 @@ function PaginasWeb(){
                     link2="https://github.com/TobiasCalzada/Desarrolloweb-coder">
                 </CardsPagina>
                 <CardsPagina 
-                    imagen="/Imagenes/JavaScript.jpg" 
+                    imagen={proyectoJavaScript} 
                     titulo="Proyecto JavaScript" 
                     descripcion="Proyecto final de Coderhouse (JavaScript), ecommerce destinado a productos de gimnasio, este proyecto contiene cards con productos que pueden agregarse a un carrito, agregar más cantidad o eliminar el producto y con resposive." 
                     alt="imagen de la pagina web de javascript"
@@ -25,7 +28,7 @@ function PaginasWeb(){
                     link2="https://github.com/TobiasCalzada/JavaScirpt-coder">
                 </CardsPagina>
                 <CardsPagina 
-                    imagen="/Imagenes/react.jpg"
+                    imagen={proyectoReact}
                     titulo="Proyecto React"
                     descripcion="Proyecto final de Coderhouse (React), ecommerce de videojuegos, con base de datos de FireBase, con guardado en carrito, manejo de cantidades en productos, eliminación de estos y finalización de compra mediante formulario de datos."
                     alt="imagen de la pagina web de react" 

@@ -1,4 +1,5 @@
 import "./AcercaDeMi.css"
+import about from "../../../../assets/Imagenes/about.png"
 
 function AcercaDeMi(){
 
@@ -6,7 +7,7 @@ function AcercaDeMi(){
     return(
         <div className="padreDeAcercaDeMi" id="idseccion3">
             <div className="about">
-                <img src="/imagenes/about.png" alt="imagen de mi persona"></img>
+                <img src={about} alt="imagen de mi persona"></img>
                 <div className="aboutInfo">
                     <h2>Sobre me</h2>
                     <div className="divider"></div>
