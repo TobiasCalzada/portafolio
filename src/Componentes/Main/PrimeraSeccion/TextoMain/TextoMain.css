@@ -41,7 +41,7 @@
     font-weight: bold;
     font-size: 10px;
     transition: all .15s ease;
-    width: 130px;
+    width: 150px;
 }
 
 .padreEnlacePdf a{
@@ -93,7 +93,7 @@
 .button_lg {
     position: relative;
     display: block;
-    padding: 10px 20px;
+    padding: 10px 30px;
     color: #e2dede;
     background-color: #0f1923;
     overflow: hidden;

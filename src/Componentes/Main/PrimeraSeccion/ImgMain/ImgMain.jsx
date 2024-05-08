@@ -4,7 +4,7 @@ import persona from "../../../../assets/Imagenes/persona.png"
 function ImgMain(){
 
     return(
-        <div className="contenedorDeImgMain">
+        <div class="cardDeImagenMain">
             <img className="imagenDeMain" src={persona} alt="imagen de mi persona"></img>
         </div>
     );
