@@ -6,16 +6,21 @@
     box-sizing:border-box;
 }
 /*editando navegador*/
-.navBar{
-    width: 100%;
-    height: 100%;
+.header{
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 20px;
+    width: 100%;
 }
 
-.navBar .linkNavBar:nth-child(6){
+.listdaDeLinks{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.navBar .listdaDeLinks li:nth-child(6){
     margin-right: 30px;
 }
 
@@ -51,3 +56,62 @@
     width: 100%;
 }
 
+/*boton*/
+.cabeceraButton{
+    display: none;
+}
+
+/*media*/
+@media (max-width:1100px) and (min-width:800px) {
+    .linkNavBar{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:800px) and (min-width:300px) {
+    .cabeceraButton{
+        display: block;
+        color: wheat;
+        background-color: #22253400;
+        margin: 7px 20px 0 0;
+        border: 1px  #22253400 solid;
+        cursor: pointer;
+        display: flex;
+        transition: all .5s ease;
+    }
+
+    .cabeceraButton:hover{
+        scale: 1.1;
+    }
+
+    .navBar{
+        display: flex;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+
+    .navBar.isActive{
+        opacity: 1;
+    }
+
+    .listdaDeLinks{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: end;
+        top: 0;
+        right: 0;
+        height: 1200%;
+        padding: 100px 30px 0px 30px;
+        background-color:  #222534f8;
+    }
+
+    .cabeceraButton{
+        z-index: 3;
+    }
+
+    .navBar .listdaDeLinks li:nth-child(6){
+        margin-right: 0px;
+    }
+}
