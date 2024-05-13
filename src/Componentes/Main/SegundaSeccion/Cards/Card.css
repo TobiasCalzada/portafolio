@@ -82,3 +82,45 @@
 .card:hover .back{
     transform: perspective(600px) rotatey(360deg);
 }
+
+/*media*/
+@media (max-width:850px) and (min-width:650px) {
+    .card{
+        width: 580px;
+        height: 380px;
+    }
+
+    .card .back p{
+        font-size: 12px;
+        padding-top: 30px;
+        width: 500px;
+    }
+
+    .circulo{
+        padding-top: 8px;
+    }
+}
+
+@media (max-width:650px) and (min-width:500px) {
+    .card{
+        width: 470px;
+        height: 300px;
+    }
+
+    .card .back p{
+        font-size: 10px;
+        padding-top: 10px;
+        width: 400px;
+    }
+
+    .circulo{
+        padding-top: 7px;
+    }
+}
+
+@media (max-width:500px) and (min-width:360px) {
+    .card{
+        width: 340px;
+        height: 290px;
+    }
+}

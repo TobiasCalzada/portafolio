@@ -18,3 +18,28 @@
     border-top-left-radius: 50px;
     transform: scale(1.05);
 }
+
+/*media*/
+@media (max-width:1200px) and (min-width:800px) {
+    .cardDeImagenMain {
+        width: 400px;
+        height: 260px;
+    }
+}
+
+@media (max-width:950px) and (min-width:600px) {
+    .cardDeImagenMain {
+        width: 480px;
+        height: 350px;
+    }
+}
+
+@media (max-width:600px) and (min-width:300px) {
+    .cardDeImagenMain {
+        width: 320px;
+        height: 450px;
+    }
+}
+
+
+

@@ -31,3 +31,39 @@
     gap:400px;
     padding-top: 200px;
 }
+
+/*media*/
+@media (max-width:850px) and (min-width:650px) {
+    .contenedorDeCertificados{
+        grid-template-columns:580px;
+        grid-template-rows: 400px;
+        gap:200px;
+        padding-top: 130px;
+    }
+}
+
+@media (max-width:650px) and (min-width:500px) {
+    .contenedorDeCertificados{
+        grid-template-columns:470px;
+        grid-template-rows: 400px;
+        gap:100px;
+        padding-top: 100px;
+    }
+
+    .padreDeCertificados h2{
+        font-size: 26px;
+    }
+
+    .dividerDeCetificado{
+        margin: 10px 59px 0 0;
+    }
+}
+
+@media (max-width:500px) and (min-width:360px) {
+    .contenedorDeCertificados{
+        grid-template-columns:345px;
+        grid-template-rows: 400px;
+        gap:100px;
+        padding-top: 100px;
+    }
+}

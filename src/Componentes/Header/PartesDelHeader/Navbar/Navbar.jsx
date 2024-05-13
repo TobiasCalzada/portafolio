@@ -10,7 +10,7 @@ function Navbar(){
     }
 
     return(
-        <div className="header">
+        <div className="padreDeNavbar">
             <nav className={`navBar ${ menu ? "isActive" : ""}`}>
                 <ul className="listdaDeLinks">
                     <li><a className="linkNavBar" href="#">inicio</a></li>

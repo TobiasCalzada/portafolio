@@ -6,7 +6,7 @@
     box-sizing:border-box;
 }
 /*editando navegador*/
-.header{
+.padreDeNavbar{
     display: flex;
     align-items: center;
     justify-content: end;
