@@ -62,8 +62,8 @@
 @media (max-width:500px) and (min-width:400px) {
     .contenedorDeCertificados{
         grid-template-columns:372px;
-        grid-template-rows: 400px;
-        gap:100px;
+        grid-template-rows: 300px;
+        gap:200px;
         padding-top: 100px;
     }
 }
