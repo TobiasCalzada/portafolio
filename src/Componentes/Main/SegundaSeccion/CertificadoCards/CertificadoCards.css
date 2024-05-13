@@ -59,9 +59,9 @@
     }
 }
 
-@media (max-width:500px) and (min-width:360px) {
+@media (max-width:500px) and (min-width:400px) {
     .contenedorDeCertificados{
-        grid-template-columns:345px;
+        grid-template-columns:372px;
         grid-template-rows: 400px;
         gap:100px;
         padding-top: 100px;

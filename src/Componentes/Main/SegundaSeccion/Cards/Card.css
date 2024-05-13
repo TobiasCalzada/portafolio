@@ -118,9 +118,19 @@
     }
 }
 
-@media (max-width:500px) and (min-width:360px) {
+@media (max-width:500px) and (min-width:400px) {
     .card{
-        width: 340px;
-        height: 290px;
+        width: 370px;
+        height: 250px;
+    }
+
+    .card .back p{
+        font-size: 9px;
+        padding-top: 0px;
+        width: 300px;
+    }
+
+    .circulo{
+        padding-top: 6px;
     }
 }
