@@ -101,7 +101,7 @@
 
 @media (max-width:500px) and (min-width:400px) {
     .about {
-        height: 570px;
+        height: 450px;
         align-items: start;
     }
 
