@@ -27,17 +27,63 @@
 
 .infoTecnologias{
     height: 90px;
-    width: 700px;
+    width: 750px;
     font-size: 17px;
     text-align: center;
     color: aliceblue;
     margin-top: 20px;
     font-family: "Rubik", sans-serif;
+    padding-right: 5px;
 }
 
 /*cards*/
 .cardsDeTecnologia{
-    display: flex;
+    display: grid;
+    align-items: center;
     justify-content: center;
-    gap: 40px;
+    grid-template-columns:100px 100px 100px 100px ;
+    grid-template-rows: 200px;
+    gap: 90px;
+    margin-right:45px;
+}
+
+@media (max-width:1000px) and (min-width:700px) {
+    .cardsDeTecnologia{
+        gap: 70px;
+    }    
+
+    .infoTecnologias{
+        width: 700px;
+    }
+}
+
+
+@media (max-width:700px) and (min-width:550px) {
+    .cardsDeTecnologia{
+        gap: 70px;
+        grid-template-columns:100px 100px 100px;
+        grid-template-rows: 200px;
+    }    
+
+    .infoTecnologias{
+        width: 500px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:550px) and (min-width:400px) {
+    .cardsDeTecnologia{
+        gap: 80px;
+        grid-template-columns:100px 100px;
+        grid-template-rows: 100px;
+    }  
+    
+    .tituloTecnologias{
+        font-size: 27px;
+    }
+
+    .infoTecnologias{
+        width: 400px;
+        font-size: 12px;
+    }
 }
