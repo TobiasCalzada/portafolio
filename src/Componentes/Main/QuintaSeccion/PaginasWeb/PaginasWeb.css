@@ -1,11 +1,10 @@
 .contenedorCardsPaginas{
-    height: 1100px;
     display: grid;
-    grid-template-rows: 200px;
+    grid-template-rows: 400px;
     grid-template-columns: 570px 570px;
     justify-content: center;
     align-items: center;
-    margin-top:260px;
+    margin-top:170px;
     gap: 80px;
 }
 
@@ -22,5 +21,38 @@
     height: 3px;
     width: 90px;
     background-color:  #E29C3B;
-    margin: 10px 0 0 615px;
+    margin-right: 25px;
+}
+
+.headerDeProyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:1200px) and (min-width:640px) {
+    .contenedorCardsPaginas{
+        grid-template-rows: 500px 500px 500px;
+        grid-template-columns: 574px;
+        margin-top:90px;
+        gap: 0px;
+    }
+}
+
+@media (max-width:640px) and (min-width:540px) {
+    .contenedorCardsPaginas{
+        grid-template-rows: 430px 430px 430px;
+        grid-template-columns: 475px;
+        margin-top:50px;
+        gap: 0px;
+    }
+}
+
+@media (max-width:540px) and (min-width:400px) {
+    .contenedorCardsPaginas{
+        grid-template-rows: 340px 340px 340px;
+        grid-template-columns: 363px;
+        margin-top:70px;
+        gap: 0px;
+    }
 }

@@ -8,8 +8,10 @@ function PaginasWeb(){
 
     return(
         <div>
-            <h2 className="tituloDePaginas" id="idseccion5">Proyectos</h2>
-            <div className="dividerDeProyectos"></div>
+            <section className="headerDeProyectos">
+                <h2 className="tituloDePaginas" id="idseccion5">Proyectos</h2>
+                <div className="dividerDeProyectos"></div>
+            </section>
             <div className="contenedorCardsPaginas">
                 <CardsPagina 
                     imagen={proyectoDesarrolloWeb} 

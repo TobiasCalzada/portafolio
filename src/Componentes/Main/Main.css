@@ -34,6 +34,7 @@ html{
 }
 
 .seccion5{
+    height: 1300px;
     background-color:   #2a2e40;
 }
 
@@ -86,5 +87,18 @@ html{
 @media (max-width:550px) and (min-width:400px) {
     .seccion4{
         height: 1450px;
+    }
+}
+
+/*seccion 5*/
+@media (max-width:1200px) and (min-width:640px) {
+    .seccion5{
+        height: 1800px;
+    }
+}
+
+@media (max-width:640px) and (min-width:540px) {
+    .seccion5{
+        height: 1550px;
     }
 }
