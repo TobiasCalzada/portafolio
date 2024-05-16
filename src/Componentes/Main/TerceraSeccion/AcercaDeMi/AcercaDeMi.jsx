@@ -11,7 +11,7 @@ function AcercaDeMi(){
                     <img src={about} alt="imagen de mi persona"></img>
                 </div>
                 <div className="aboutInfo">
-                    <h2>Sobre me</h2>
+                    <h2>Sobre mí</h2>
                     <div className="divider"></div>
                     <p className="primerTexto">Hola, mi nombre es Tobias Calzada, soy un chico de 21 años, programador junior en FrontEnd con conocimientos en HTML, JavaScript, React, etc.</p>
                     <p>Mi personalidad se basa en superarme en cada paso y línea de código que se pueda, mi prioridad en este momento es conseguir mi primer ingreso en el mundo laboral de la programación web, para de este modo poder expandir mis conocimientos y habilidades sobre la materia.</p>
