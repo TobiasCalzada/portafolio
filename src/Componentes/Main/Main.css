@@ -86,7 +86,7 @@ html{
 /*seccion 4*/
 @media (max-width:550px) and (min-width:400px) {
     .seccion4{
-        height: 1450px;
+        height: 1550px;
     }
 }
 

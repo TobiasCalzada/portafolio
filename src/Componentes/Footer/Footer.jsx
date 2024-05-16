@@ -23,6 +23,7 @@ function Footer(){
                 <p>+54 9 11 3601-3441</p>
             </div>
             <section>
+                <div className="divisor"></div>
                 <Copyright></Copyright>
             </section>
         </div>

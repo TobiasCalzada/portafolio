@@ -24,10 +24,18 @@
 
 .telefono i{
     font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.divisor{
+    height: 1px;
+    background-color:#2b2c37;
+    width: 100%;
 }
 
 .telefono p{
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -39,7 +47,7 @@
     }
 
     .telefono{
-        margin-right: 40px;
+        margin-right: 20px;
         gap: 7px;
     }
 }

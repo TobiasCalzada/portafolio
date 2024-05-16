@@ -2,6 +2,8 @@
     position: relative;
     width: 750px;
     height: 500px;
+    background-color: #30323e;
+    border: none;
 }
 
 .card .face{
@@ -36,7 +38,7 @@
     color: #f3f3f3;
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top:30px;
     text-align: center;
     box-shadow: 0 5px 10px #000;
 }
@@ -97,7 +99,20 @@
     }
 
     .circulo{
-        padding-top: 8px;
+        padding-top: 9px;
+        padding-right: 5px;
+    }
+
+    .primertTexto{
+        margin-top: 20px;
+    }
+    
+    .segundotTexto{
+        margin-top: 10px;
+    }
+    
+    .tercertTexto{
+        margin-top: 10px;
     }
 }
 
@@ -114,7 +129,20 @@
     }
 
     .circulo{
-        padding-top: 7px;
+        padding-top: 6px;
+        padding-right: 5px;
+    }
+
+    .primertTexto{
+        margin-top: 20px;
+    }
+    
+    .segundotTexto{
+        margin-top: 10px;
+    }
+    
+    .tercertTexto{
+        margin-top: 10px;
     }
 }
 
@@ -125,12 +153,25 @@
     }
 
     .card .back p{
-        font-size: 9px;
+        font-size: 8px;
         padding-top: 0px;
-        width: 300px;
+        width: 310px;
     }
 
     .circulo{
         padding-top: 6px;
+        padding-right: 5px;
+    }
+
+    .primertTexto{
+        margin-top: 20px;
+    }
+    
+    .segundotTexto{
+        margin-top: 10px;
+    }
+    
+    .tercertTexto{
+        margin-top: 10px;
     }
 }
