@@ -44,29 +44,6 @@
     padding-left: 5px;
     text-align: center;
   }
-  /* hover effect on button width */
-  .Btn:hover {
-    width: 165px;
-    border-radius: 40px;
-    transition-duration: .3s;
-}
-
-.Btn:hover .sign {
-    width: 30%;
-    transition-duration: .3s;
-    padding-left: 20px;
-}
-  /* hover effect button's text */
-.Btn:hover .text {
-    opacity: 1;
-    width: 70%;
-    transition-duration: .3s;
-    padding-right: 10px;
-}
-/* button click effect*/
-.Btn:active {
-    transform: translate(2px ,2px);
-}
 
 .linkDeRedesPadre{
   text-decoration: none;
@@ -92,4 +69,30 @@
 
 #githubId{
   background-color: rgb(30, 30, 30);
+}
+
+@media (max-width:2800px) and (min-width:660px){
+    /* hover effect on button width */
+    .Btn:hover {
+      width: 165px;
+      border-radius: 40px;
+      transition-duration: .3s;
+  }
+  
+  .Btn:hover .sign {
+      width: 30%;
+      transition-duration: .3s;
+      padding-left: 20px;
+  }
+    /* hover effect button's text */
+  .Btn:hover .text {
+      opacity: 1;
+      width: 70%;
+      transition-duration: .3s;
+      padding-right: 10px;
+  }
+  /* button click effect*/
+  .Btn:active {
+      transform: translate(2px ,2px);
+  }
 }
