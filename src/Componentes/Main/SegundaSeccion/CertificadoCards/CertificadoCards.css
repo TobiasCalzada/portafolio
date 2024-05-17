@@ -18,7 +18,7 @@
     height: 3px;
     width: 90px;
     background-color:  #E29C3B;
-    margin: 10px 75px 0 0;
+    margin: 0px 75px 0 0;
 }
 
 .contenedorDeCertificados{
@@ -55,7 +55,7 @@
     }
 
     .dividerDeCetificado{
-        margin: 10px 59px 0 0;
+        margin: 0px 59px 0 0;
     }
 }
 

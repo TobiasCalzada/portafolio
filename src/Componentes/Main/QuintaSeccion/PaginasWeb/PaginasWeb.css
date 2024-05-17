@@ -20,8 +20,9 @@
 .dividerDeProyectos{
     height: 3px;
     width: 90px;
+    margin-top: 10px;
     background-color:  #E29C3B;
-    margin-right: 25px;
+    margin-right: 21px;
 }
 
 .headerDeProyectos{

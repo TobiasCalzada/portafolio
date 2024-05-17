@@ -8,10 +8,14 @@
 /*editando navegador*/
 .padreDeNavbar{
     display: flex;
+    align-items: center;
     justify-content: end;
     width: 100%;
-    position: absolute;
-    margin-top: 19px
+}
+
+.padreDeNavbar button{
+    margin-left: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.101);
 }
 
 .listaDeLinks{
@@ -19,6 +23,7 @@
     display: flex;
     align-items: center;
     gap:30px;
+    margin-top: 5px;
 }
 
 .listaDeLinks li:nth-child(6){
@@ -29,9 +34,9 @@
     position: relative;
     text-decoration: none;
     color: #e2dede;
-    font-size: 15px;
+    font-size: 15.5px;
     letter-spacing: 0.5px;
-    font-family: "Rubik", sans-serif ;
+    font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight:500;
 }
@@ -55,3 +60,56 @@
 .linkNavBar:hover:after{
     width: 100%;
 }
+
+@media (max-width:900px) and (min-width:767px){
+    .linkNavBar{
+        font-size: 14px;
+    }
+
+    .listaDeLinks{
+        gap:20px;
+        margin-top: 3px;
+    }
+
+    .listaDeLinks li:nth-child(6){
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:767px) and (min-width:400px){
+    .padreDeNavbar{
+        position: absolute;
+        width: 200px;
+        right: 0;
+        padding: 14px 15px 5px 0px;
+        background-color: #222534f1;
+    }
+
+    .container {
+        padding-bottom: 6px;
+    }
+
+    .listaDeLinks{
+        list-style-type:none;
+        display: flex;
+        align-items: end;
+        gap:30px;
+        padding: 30px 10px 0 0;
+        height: 1100px;
+    }
+
+    .listaDeLinks li:nth-child(6){
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:500px) and (min-width:400px){
+    .padreDeNavbar{
+        position: absolute;
+        width: 180px;
+        right: 0;
+        padding: 14px 15px 5px 0px;
+        background-color: #222534f1;
+    }
+}
+
